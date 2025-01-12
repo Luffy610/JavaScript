@@ -1,0 +1,18 @@
+.dark_background{
+    background-color: black;
+    color: white;
+}
+
+.light_background{
+    background-color: white;
+}
+
+.dark_button{
+    background-color: white;
+    color: black;
+}
+
+.light_button{
+    background-color: black;
+    color: white;
+}
