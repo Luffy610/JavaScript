@@ -12,18 +12,14 @@
             <h1 class="title">Currency Converter</h1>
         </div>
         <div class="amount-label">Enter Amount</div>
-        <input type="text" name="Enter Amount" class="amount-field">
+        <input type="number" value="0" name="Enter Amount" class="amount-field">
         <div class="converter">
             <div class="from-container">
                 <div class="from-label">From</div>
                 <div class="from-content">
-                    <div class="from-img">
                         <img src="https://flagsapi.com/US/flat/64.png" class="from-img">
-                    </div>
                     <div class="from-select">
                         <select name="from" id="from-dropdown">
-                            <option value="IND" class="from-option">IND</option>
-                            <option value="USD" class="from-option">USD</option>
                         </select>
                     </div>
                 </div>
@@ -36,8 +32,6 @@
                 <div class="to-content">
                     <img src="https://flagsapi.com/IN/flat/64.png" class="to-img">
                     <select name="to" id="to-dropdown">
-                        <option value="IND" class="to-option">IND</option>
-                        <option value="USD" class="to-option">USD</option>
                     </select>
                 </div>
             </div>
@@ -47,5 +41,7 @@
             <button class="exchange-btn">Get Exchange Rate</button>
         </div>
     </div>
+    <script src="code.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
